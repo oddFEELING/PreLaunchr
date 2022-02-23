@@ -91,7 +91,7 @@ const Hero = () => {
 
   const windowH = useVH();
   return (
-    <S.HeroContainer bg-level={scroll / 900}>
+    <S.HeroContainer bg-level={scroll / 1000}>
       <S.Main vh={windowH}>
         {/* ----- text section  ----- */}
         <S.TextSection>

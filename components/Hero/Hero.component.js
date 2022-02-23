@@ -21,8 +21,7 @@ export const HeroContainer = styled.div`
     top: 0;
     left: 0;
     pointer-events: none;
-    background-color: ${(props) => `rgba(242,241,255,${props['bg-level']})`};
-    transition: 100ms all ease-in;
+    background-color: ${(props) => `rgba(151,145,242,${props['bg-level']})`};
   }
 `;
 
