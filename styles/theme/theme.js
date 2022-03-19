@@ -13,6 +13,7 @@ const theme = {
     clr_7: '#3170A9',
     clr_8: '#A9A9A9',
     clr_9: '#2D3134',
+    clr_10: '#D3D0FC',
   },
   font: {
     font_1: `'Ubuntu', sans-serif`,
