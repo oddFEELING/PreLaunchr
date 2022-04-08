@@ -11,14 +11,14 @@ const Step = () => {
     {
       title: `Create an `,
       focus: `ACCOUNT`,
-      content: `Get our app on our Android or IOS device for free and registera new account with your credentials to join the GoLoKa community`,
+      content: `Get our app on your Android or IOS device for free and register a new account with your credentials to join the GoLoKa community.`,
       image: CreateImg,
       align: `right`,
     },
     {
       title: `Complete `,
       focus: `SURVEYS`,
-      content: `Check out all avakilable surveys and engage in simple surveys within minutes `,
+      content: `Check out all avakilable surveys and engage in simple surveys within minutes.`,
       image: TaskImg,
       align: `left`,
     },
@@ -49,7 +49,7 @@ const Step = () => {
           return (
             <S.StepDiv align={step.align} key={index}>
               {/* ----- image area ----- */}
-              <S.StepImg data-aos='zoom-in' data-aos-offset='100'>
+              <S.StepImg data-aos='zoom-in' data-aos-offset='200'>
                 <Image src={step.image} alt='' layout='fill' />
               </S.StepImg>
               {/* ----- text area ----- */}

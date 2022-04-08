@@ -3,6 +3,8 @@ import * as S from '../styles/Home.component';
 import useAOS from '../hooks/useAOS';
 import Hero from '../components/Hero/Hero';
 import Step from '../components/Steps/Step';
+import Company from '../components/companies/Company';
+import Footer from '../components/footer/Footer';
 
 export default function Home() {
   // custom aos hook
@@ -21,6 +23,8 @@ export default function Home() {
 
       <Hero />
       <Step />
+      <Company />
+      <Footer />
     </S.Container>
   );
 }
